@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="#D5DCDC"
+    android:orientation="vertical">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/songimagefv"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:contentDescription="songname"
+        android:padding="10dp"
+        android:src="@drawable/music" />
+
+    <TextView
+        android:id="@+id/songNamefv"
+        android:layout_width="70dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:maxLines="2"
+        android:text="Song Name"
+        android:textColor="@color/black" />
+
+</LinearLayout>

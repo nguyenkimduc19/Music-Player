@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    android:orientation="vertical"
+    tools:context=".FeedbackActivity">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/topic"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center|start"
+        android:hint="Topic i.e. Suggestion, Error, etc..."
+        android:inputType="textEmailSubject"
+        android:paddingHorizontal="15dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/uemail"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center|start"
+        android:hint="Enter Your Email Address (Optional)"
+        android:inputType="textEmailAddress"
+        android:paddingHorizontal="15dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/feedback"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center|start|top"
+        android:hint="Enter Feedback Here..."
+        android:paddingHorizontal="15dp" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/white"
+        android:text="Submit"
+        android:textColor="@color/black" />
+
+</LinearLayout>
